@@ -66,7 +66,8 @@ resource aws_eks_cluster "eks_cluster" {
   role_arn = "${aws_iam_role.iam_for_eks.arn}"
 
   vpc_config {
-    endpoint_private_access = true
+    endpoint_public_access = false
+    public_access_cidrs = ["10.2.0.0/8"]
     subnet_ids              = ["${aws_subnet.eks_subnet1.id}", "${aws_subnet.eks_subnet2.id}"]
   }
 
