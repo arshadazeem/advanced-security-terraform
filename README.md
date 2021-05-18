@@ -129,7 +129,7 @@ Clicking on the security alert will provide details about the security alert inc
   
 <summary>Fix the Security Alert</summary>
 
-In order to fix this specific alert, we will need to ensure that the destination file paths is the only location where files can be written to.
+In order to fix this specific alert, we will need to that we our CIDR range doesn't have public access.
 
 Click on the `Code` tab and [Edit](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/editing-files-in-your-repository) the `terraform/aws/eks.tf` file. Navigate to Line 68 of the `eks.tf` file and modify the line:
 
