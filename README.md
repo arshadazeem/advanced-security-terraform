@@ -1,3 +1,5 @@
+<img width="1481" alt="Screenshot 2021-05-18 at 11 06 46" src="https://user-images.githubusercontent.com/24505883/118624240-43e01300-b7c9-11eb-83b2-e998f9762d60.png">
+
 # Code Scanning Terraform Demo (infrastructure as code)
 
 Welcome to the code scanning for Terraform demo! For this demo we'll make use of "TerraGoat", a "Vulnerable by Design" Terraform repository created by [Bridgecrew](https://github.com/bridgecrewio). TerraGoat is a learning and training project that demonstrates how common configuration errors can find their way into production cloud environments, and how you can use GitHub Advanced Security with tfsec to find these vulnerabilities. 
